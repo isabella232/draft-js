@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/examples/draft-0-10-0/playground"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/examples/draft-0-10-0/tex"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/examples/draft-0-10-0/universal"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
